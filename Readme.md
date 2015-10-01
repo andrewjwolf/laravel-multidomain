@@ -35,3 +35,5 @@ business.
 
 Typically within your bootstrap provider, you will then register additional services to be used only with that domain.
 Any service that is used globally should be bootstrapped via the config/app.php providers array.
+
+
