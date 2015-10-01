@@ -4,6 +4,7 @@ simple configuration and flexible bootstrapping.
 
 #Installation
 Start by modifying your composer.json file to add/update entities to look similar to the following:
+
 ```json
     "repositories": [
         {
@@ -15,11 +16,13 @@ Start by modifying your composer.json file to add/update entities to look simila
     "require": {
             "trdp/domain": "v0.1-alpha"
     },
-
+```
 Next modify your config/app.php file and add the following line to your providers array:
+
 ```php
         Trdp\Domain\Providers\DomainServiceProvider::class
-        
+```
+
 From here you will need to publish the default configuration file and modify the contents
 to fit your application structure.
 
